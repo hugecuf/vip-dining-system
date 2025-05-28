@@ -1,15 +1,36 @@
 {
   "name": "vip-dining-system",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "VIP用餐資料管理系統 - 學生作業版",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
+    "dev": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "vip",
+    "dining",
+    "restaurant",
+    "booking",
+    "management",
+    "nodejs",
+    "express",
+    "sqlite"
+  ],
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
   "dependencies": {
-    "cors": "^2.8.5",
     "express": "^4.18.2",
-    "sqlite3": "^5.1.6"
+    "sqlite3": "^5.1.6",
+    "cors": "^2.8.5"
+  },
+  "author": "hugecuf",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hugecuf/vip-dining-system.git"
   }
 }
